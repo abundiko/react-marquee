@@ -9,19 +9,19 @@ A simple and customizable marquee component for React.
 ## Installation
 
 ```bash
-npm install react-marquee
+npm install @abundiko/react-marquee
 ```
 
 or
 
 ```bash
-bun add react-marquee
+bun add @abundiko/react-marquee
 ```
 
 ## Usage
 
 ```tsx
-import MarqueeSlider from "react-marquee";
+import MarqueeSlider from "@abundiko/react-marquee";
 
 <MarqueeSlider speed={80} axis="-x" className="gap-6" pauseOnHover fade={"both"}>
   {Array(20)
